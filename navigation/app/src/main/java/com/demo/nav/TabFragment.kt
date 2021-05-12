@@ -13,6 +13,7 @@ import com.demo.nav.ui.SecondFragment
 class TabFragment : Fragment() {
 
     private var _binding: FragmentTabBinding? = null
+
     private val binding get() = _binding!!
 
     override fun onCreateView(

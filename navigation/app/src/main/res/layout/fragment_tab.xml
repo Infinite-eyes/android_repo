@@ -17,5 +17,4 @@
         android:layout_height="wrap_content"
         app:menu="@menu/menu_nav" />
 
-
 </LinearLayout>
