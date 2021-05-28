@@ -15,6 +15,11 @@
             android:targetClass="com.demo.shortcuts.SplashActivity" />
 
         <intent
+            android:action="splash"
+            android:targetPackage="com.demo.shortcuts"
+            android:targetClass="com.demo.shortcuts.ui.Splash2Activity" />
+
+        <intent
             android:action="action1"
             android:targetPackage="com.demo.shortcuts"
             android:targetClass="com.demo.shortcuts.MainActivity" />
