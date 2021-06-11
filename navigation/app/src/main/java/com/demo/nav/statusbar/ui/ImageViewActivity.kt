@@ -18,10 +18,10 @@ class ImageViewActivity : AppCompatActivity() {
 
         binding = ActivityImageViewBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        Slidr.attach(this)
+//        Slidr.attach(this)
 
         binding.apply {
-            setSupportActionBar(toolbar)
+//            setSupportActionBar(toolbar)
             if (supportActionBar != null) {
                 supportActionBar!!.setDisplayHomeAsUpEnabled(true)
             }

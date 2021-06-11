@@ -85,9 +85,10 @@ class IndexActivity : AppCompatActivity() {
             })
             sbChangeAlpha.progress = StatusBarUtil.DEFAULT_STATUS_BAR_ALPHA
             mStatusBarColor = resources.getColor(R.color.purple_200)
-
         }
 
+
+//        StatusBarUtil.setTransparent(this)
 
     }
 

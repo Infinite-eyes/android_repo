@@ -1,4 +1,4 @@
-package com.demo.nav.statusbar.ui
+package com.demo.nav.statusbar.ui.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.demo.nav.R
 
-class SimpleFragment : Fragment() {
+class ImageFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,

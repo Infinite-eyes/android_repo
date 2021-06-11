@@ -28,6 +28,10 @@
 
         <activity android:name=".statusbar.ui.ColorStatusBarActivity"/>
         <activity android:name=".statusbar.ui.ImageStatusBarActivity" />
+        <activity android:name=".statusbar.ui.ImageViewActivity" />
+        <activity android:name=".statusbar.ui.SwipeBackActivity" />
+        <activity android:name=".statusbar.ui.SwitchModeActivity" />
+        <activity android:name=".statusbar.ui.UseInFragmentActivity" />
 
     </application>
 
