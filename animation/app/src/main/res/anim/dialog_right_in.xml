@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate
+        android:duration="300"
+        android:fromXDelta="100%p"
+        android:toXDelta="0" />
+
+    <!-- pivotX 可以是数字、百分比
+    50px表示原点坐标加上50即是控件的x位置
+    50%表示原点坐标加上控件自身的50%
+    50%p 表示原点位置加上父控件的50%  -->
+    <scale
+        android:fromXScale="0"
+        android:fromYScale="1"
+        android:pivotX="100%"
+        android:pivotY="0"
+        android:toXScale="1"
+        android:toYScale="1" />
+
+</set>
