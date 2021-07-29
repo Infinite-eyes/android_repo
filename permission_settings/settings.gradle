@@ -1,0 +1,3 @@
+rootProject.name = "permission_settings"
+include ':app'
+include ':library'
